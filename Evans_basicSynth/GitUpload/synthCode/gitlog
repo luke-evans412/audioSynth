@@ -1,0 +1,144 @@
+Last login: Thu Mar  2 17:05:40 on ttys000
+studentuser@13DTCL022812PMO ~ % ls
+Applications	Documents	Library		Music		Public
+Desktop		Downloads	Movies		Pictures	derby.log
+studentuser@13DTCL022812PMO ~ % cd Desktop/
+studentuser@13DTCL022812PMO Desktop % cd Evans_basicSynth/
+studentuser@13DTCL022812PMO Evans_basicSynth % cd GitUpload/
+studentuser@13DTCL022812PMO GitUpload % git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	new file:   .DS_Store
+	new file:   synthCode/.DS_Store
+	new file:   synthCode/Builds/MacOSX/Info-AU.plist
+	new file:   synthCode/Builds/MacOSX/Info-Standalone_Plugin.plist
+	new file:   synthCode/Builds/MacOSX/Info-VST3.plist
+	new file:   synthCode/Builds/MacOSX/RecentFilesMenuTemplate.nib
+	new file:   synthCode/Builds/MacOSX/build/Debug/libsynthCode.a
+	new file:   synthCode/Builds/MacOSX/build/Debug/synthCode.app/Contents/Info.plist
+	new file:   synthCode/Builds/MacOSX/build/Debug/synthCode.app/Contents/MacOS/synthCode
+	new file:   synthCode/Builds/MacOSX/build/Debug/synthCode.app/Contents/PkgInfo
+	new file:   synthCode/Builds/MacOSX/build/Debug/synthCode.app/Contents/Resources/RecentFilesMenuTemplate.nib
+	new file:   synthCode/Builds/MacOSX/build/Debug/synthCode.app/Contents/Resources/background.png
+	new file:   synthCode/Builds/MacOSX/build/Debug/synthCode.app/Contents/Resources/knob_small.png
+	new file:   synthCode/Builds/MacOSX/build/Debug/synthCode.app/Contents/_CodeSignature/CodeResources
+	new file:   synthCode/Builds/MacOSX/build/Debug/synthCode.vst3
+	new file:   synthCode/Builds/MacOSX/synthCode.xcodeproj/project.pbxproj
+	new file:   synthCode/Builds/MacOSX/synthCode.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+	new file:   synthCode/Builds/MacOSX/synthCode.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+	new file:   synthCode/Builds/MacOSX/synthCode.xcodeproj/project.xcworkspace/xcuserdata/studentuser.xcuserdatad/UserInterfaceState.xcuserstate
+	new file:   synthCode/Builds/MacOSX/synthCode.xcodeproj/xcuserdata/studentuser.xcuserdatad/xcschemes/xcschememanagement.plist
+	new file:   synthCode/JuceLibraryCode/BinaryData.cpp
+	new file:   synthCode/JuceLibraryCode/BinaryData.h
+	new file:   synthCode/JuceLibraryCode/JuceHeader.h
+	new file:   synthCode/JuceLibraryCode/JucePluginDefines.h
+	new file:   synthCode/JuceLibraryCode/ReadMe.txt
+	new file:   synthCode/JuceLibraryCode/include_juce_audio_basics.cpp
+	new file:   synthCode/JuceLibraryCode/include_juce_audio_basics.mm
+	new file:   synthCode/JuceLibraryCode/include_juce_audio_devices.cpp
+	new file:   synthCode/JuceLibraryCode/include_juce_audio_devices.mm
+	new file:   synthCode/JuceLibraryCode/include_juce_audio_formats.cpp
+	new file:   synthCode/JuceLibraryCode/include_juce_audio_formats.mm
+	new file:   synthCode/JuceLibraryCode/include_juce_audio_plugin_client_AAX.cpp
+	new file:   synthCode/JuceLibraryCode/include_juce_audio_plugin_client_AAX.mm
+	new file:   synthCode/JuceLibraryCode/include_juce_audio_plugin_client_ARA.cpp
+	new file:   synthCode/JuceLibraryCode/include_juce_audio_plugin_client_AU_1.mm
+	new file:   synthCode/JuceLibraryCode/include_juce_audio_plugin_client_AU_2.mm
+	new file:   synthCode/JuceLibraryCode/include_juce_audio_plugin_client_AUv3.mm
+	new file:   synthCode/JuceLibraryCode/include_juce_audio_plugin_client_LV2.cpp
+	new file:   synthCode/JuceLibraryCode/include_juce_audio_plugin_client_LV2.mm
+	new file:   synthCode/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp
+	new file:   synthCode/JuceLibraryCode/include_juce_audio_plugin_client_Unity.cpp
+	new file:   synthCode/JuceLibraryCode/include_juce_audio_plugin_client_VST2.cpp
+	new file:   synthCode/JuceLibraryCode/include_juce_audio_plugin_client_VST3.cpp
+	new file:   synthCode/JuceLibraryCode/include_juce_audio_plugin_client_VST_utils.mm
+	new file:   synthCode/JuceLibraryCode/include_juce_audio_plugin_client_utils.cpp
+	new file:   synthCode/JuceLibraryCode/include_juce_audio_processors.cpp
+	new file:   synthCode/JuceLibraryCode/include_juce_audio_processors.mm
+	new file:   synthCode/JuceLibraryCode/include_juce_audio_processors_ara.cpp
+	new file:   synthCode/JuceLibraryCode/include_juce_audio_processors_lv2_libs.cpp
+	new file:   synthCode/JuceLibraryCode/include_juce_audio_utils.cpp
+	new file:   synthCode/JuceLibraryCode/include_juce_audio_utils.mm
+	new file:   synthCode/JuceLibraryCode/include_juce_core.cpp
+	new file:   synthCode/JuceLibraryCode/include_juce_core.mm
+	new file:   synthCode/JuceLibraryCode/include_juce_data_structures.cpp
+	new file:   synthCode/JuceLibraryCode/include_juce_data_structures.mm
+	new file:   synthCode/JuceLibraryCode/include_juce_dsp.cpp
+	new file:   synthCode/JuceLibraryCode/include_juce_dsp.mm
+	new file:   synthCode/JuceLibraryCode/include_juce_events.cpp
+	new file:   synthCode/JuceLibraryCode/include_juce_events.mm
+	new file:   synthCode/JuceLibraryCode/include_juce_graphics.cpp
+	new file:   synthCode/JuceLibraryCode/include_juce_graphics.mm
+	new file:   synthCode/JuceLibraryCode/include_juce_gui_basics.cpp
+	new file:   synthCode/JuceLibraryCode/include_juce_gui_basics.mm
+	new file:   synthCode/JuceLibraryCode/include_juce_gui_extra.cpp
+	new file:   synthCode/JuceLibraryCode/include_juce_gui_extra.mm
+	new file:   synthCode/Source/.DS_Store
+	new file:   synthCode/Source/PluginEditor.cpp
+	new file:   synthCode/Source/PluginEditor.h
+	new file:   synthCode/Source/PluginProcessor.cpp
+	new file:   synthCode/Source/PluginProcessor.h
+	new file:   synthCode/Source/SynthSound.cpp
+	new file:   synthCode/Source/SynthSound.h
+	new file:   synthCode/Source/SynthVoice.cpp
+	new file:   synthCode/Source/SynthVoice.h
+	new file:   synthCode/Source/background.png
+	new file:   synthCode/Source/knob_small.png
+	new file:   synthCode/synthCode.jucer
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   synthCode/Builds/MacOSX/build/Debug/libsynthCode.a
+	modified:   synthCode/Builds/MacOSX/build/Debug/synthCode.app/Contents/MacOS/synthCode
+	modified:   synthCode/Builds/MacOSX/synthCode.xcodeproj/project.xcworkspace/xcuserdata/studentuser.xcuserdatad/UserInterfaceState.xcuserstate
+	modified:   synthCode/Builds/MacOSX/synthCode.xcodeproj/xcuserdata/studentuser.xcuserdatad/xcschemes/xcschememanagement.plist
+	modified:   synthCode/Source/PluginProcessor.cpp
+	modified:   synthCode/Source/SynthVoice.cpp
+	modified:   synthCode/Source/SynthVoice.h
+
+
+studentuser@13DTCL022812PMO GitUpload % git add synthCode/Source/PluginProcessor.cpp
+studentuser@13DTCL022812PMO GitUpload % git add synthCode/Source/SynthVoice.cpp
+studentuser@13DTCL022812PMO GitUpload % git add synthCode/Source/SynthVoice.h
+studentuser@13DTCL022812PMO GitUpload % git commit
+        new file:   synthCode/JuceLibraryCode/include_juce_audio_plugin_client_Unity.cpp
+        new file:   synthCode/JuceLibraryCode/include_juce_audio_plugin_client_VST2.cpp
+        new file:   synthCode/JuceLibraryCode/include_juce_audio_plugin_client_VST3.cpp
+        new file:   synthCode/JuceLibraryCode/include_juce_audio_plugin_client_VST_utils.mm
+        new file:   synthCode/JuceLibraryCode/include_juce_audio_plugin_client_utils.cpp
+        new file:   synthCode/JuceLibraryCode/include_juce_audio_processors.cpp
+        new file:   synthCode/JuceLibraryCode/include_juce_audio_processors.mm
+        new file:   synthCode/JuceLibraryCode/include_juce_audio_processors_ara.cpp
+        new file:   synthCode/JuceLibraryCode/include_juce_audio_processors_lv2_libs.cpp
+        new file:   synthCode/JuceLibraryCode/include_juce_audio_utils.cpp
+        new file:   synthCode/JuceLibraryCode/include_juce_audio_utils.mm
+        new file:   synthCode/JuceLibraryCode/include_juce_core.cpp
+        new file:   synthCode/JuceLibraryCode/include_juce_core.mm
+        new file:   synthCode/JuceLibraryCode/include_juce_data_structures.cpp
+        new file:   synthCode/JuceLibraryCode/include_juce_data_structures.mm
+        new file:   synthCode/JuceLibraryCode/include_juce_dsp.cpp
+        new file:   synthCode/JuceLibraryCode/include_juce_dsp.mm
+        new file:   synthCode/JuceLibraryCode/include_juce_events.cpp
+        new file:   synthCode/JuceLibraryCode/include_juce_events.mm
+        new file:   synthCode/JuceLibraryCode/include_juce_graphics.cpp
+        new file:   synthCode/JuceLibraryCode/include_juce_graphics.mm
+        new file:   synthCode/JuceLibraryCode/include_juce_gui_basics.cpp
+        new file:   synthCode/JuceLibraryCode/include_juce_gui_basics.mm
+        new file:   synthCode/JuceLibraryCode/include_juce_gui_extra.cpp                new file:   synthCode/JuceLibraryCode/include_juce_gui_extra.mm
+        new file:   synthCode/Source/.DS_Store                                          new file:   synthCode/Source/PluginEditor.cpp
+        new file:   synthCode/Source/PluginEditor.h
+        new file:   synthCode/Source/PluginProcessor.cpp
+        new file:   synthCode/Source/PluginProcessor.h
+        new file:   synthCode/Source/SynthSound.cpp
+        new file:   synthCode/Source/SynthSound.h
+        new file:   synthCode/Source/SynthVoice.cpp
+        new file:   synthCode/Source/SynthVoice.h
+        new file:   synthCode/Source/background.png
+        new file:   synthCode/Source/knob_small.png
+        new file:   synthCode/synthCode.jucer
+
