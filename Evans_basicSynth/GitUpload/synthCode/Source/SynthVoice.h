@@ -3,7 +3,7 @@
 
     SynthVoice.h
     Created: 1 Mar 2023 6:48:27pm
-    Author:  Student User
+    Author:  Luke Evans
 
   ==============================================================================
 */
@@ -11,6 +11,8 @@
 #pragma once
 #include <JuceHeader.h>
 #include "SynthSound.h"
+#include "OscEffect.h"
+#include "AdsrEffect.h"
 
 class SynthVoice : public juce::SynthesiserVoice {
     
@@ -23,24 +25,26 @@ public:
     void prepareToPlay (double sampleRate, int samplesPerBlock, int outputChannels);
     void pitchWheelMoved (int newPitchWheelValue) override;
     
+    void reset();
+    OscEffect& getOscillator() {
+        return osc;
+        
+    }
+    
+    AdsrEffect& getAdsr() {
+        return adsr;
+    
+    }
+
+    
+    
     
 private:
     
-    
-    //sine wave
-    //juce::dsp::Oscillator<float> osc { [](float x) { return std::sin (x); }};
-    
-    //saw wave
-    //juce::dsp::Oscillator<float> osc { [](float x) { return x / juce::MathConstants<float>::pi; }};
-    
-    //square wave
-    juce::ADSR adsr;
-    juce::ADSR::Parameters adsrParams;
-    
-    juce::dsp::Oscillator<float> osc { [](float x) { return x < 0.0f ? -1.0f : 1.0f; }};
-    
+    OscEffect osc;
+    AdsrEffect adsr;
+    juce::AudioBuffer<float> synthBuffer;
     juce::dsp::Gain<float> gain;
     bool isPrepared { false };
-    
     
 };
